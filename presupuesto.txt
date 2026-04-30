@@ -1,0 +1,19 @@
+PRESUPUESTO: Bajo mesada
+
+Puerta izquierda
+  60x80 cm
+  Material: melamina
+  Área: 0.48 m²
+  Costo: $3840.00
+
+Puerta derecha
+  60x80 cm
+  Material: melamina
+  Área: 0.48 m²
+  Costo: $3840.00
+
+Subtotal: $7680.00
+Desperdicio: $768.00
+Herrajes: $2000.00
+Mano de obra: $15000.00
+TOTAL: $25448.00

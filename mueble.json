@@ -1,0 +1,41 @@
+{
+  "nombre": "Bajo mesada",
+  "material_principal": "melamina",
+  "espesor_mm": 18,
+
+  "estructura": [
+    {"nombre": "Lateral izquierdo", "ancho": 60, "alto": 80},
+    {"nombre": "Lateral derecho", "ancho": 60, "alto": 80},
+    {"nombre": "Base", "ancho": 120, "alto": 60},
+    {"nombre": "Tapa", "ancho": 120, "alto": 60},
+    {"nombre": "Fondo", "ancho": 120, "alto": 80, "material": "mdf"}
+  ],
+
+  "puertas": [
+    {
+      "nombre": "Puerta izquierda",
+      "ancho": 60,
+      "alto": 80,
+      "cantidad": 1
+    },
+    {
+      "nombre": "Puerta derecha",
+      "ancho": 60,
+      "alto": 80,
+      "cantidad": 1
+    }
+  ],
+
+  "herrajes": {
+    "precio_bisagra": 500,
+    "tiradores": 2,
+    "precio_tirador": 1200
+  },
+
+  "extras": {
+    "canto_metros": 10,
+    "precio_metro_canto": 300
+  },
+
+  "mano_obra": 15000
+}
