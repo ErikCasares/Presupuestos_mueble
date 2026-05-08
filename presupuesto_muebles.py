@@ -234,7 +234,7 @@ def mostrar_optimizacion(placas):
         for fila in placa.filas:
             fila_txt = " | ".join(f"{p.nombre}({p.ancho}x{p.alto})" for p in fila)
             print(f"  {fila_txt}")
-
+ 
 
 # Guarda el presupuesto en un archivo de texto
 def guardar_txt(mueble, filename="presupuesto.txt"):
