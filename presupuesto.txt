@@ -1,19 +1,19 @@
-PRESUPUESTO: Bajo mesada
+PRESUPUESTO: Mural 2 puertas 90cm
 
 Puerta izquierda
-  60x80 cm
-  Material: melamina
-  Área: 0.48 m²
-  Costo: $3840.00
+  44.8x105 cm
+  Material: melamina blanca
+  Área: 0.47 m²
+  Costo: $0.00
 
 Puerta derecha
-  60x80 cm
-  Material: melamina
-  Área: 0.48 m²
-  Costo: $3840.00
+  44.8x105 cm
+  Material: melamina blanca
+  Área: 0.47 m²
+  Costo: $0.00
 
-Subtotal: $7680.00
-Desperdicio: $768.00
-Herrajes: $2000.00
-Mano de obra: $15000.00
-TOTAL: $25448.00
+Subtotal: $0.00
+Desperdicio: $0.00
+Herrajes: $3000.00
+Mano de obra: $20000.00
+TOTAL: $23000.00

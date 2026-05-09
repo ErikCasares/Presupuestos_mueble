@@ -1,0 +1,72 @@
+{
+  "nombre": "Mural 2 puertas 90cm",
+  "material_principal": "melamina blanca",
+  "espesor_mm": 18,
+
+  "estructura": [
+    {
+      "nombre": "Costado izquierdo",
+      "ancho": 33,
+      "alto": 105
+    },
+    {
+      "nombre": "Costado derecho",
+      "ancho": 33,
+      "alto": 105
+    },
+    {
+      "nombre": "Base",
+      "ancho": 86.4,
+      "alto": 33
+    },
+    {
+      "nombre": "Techo",
+      "ancho": 86.4,
+      "alto": 33
+    },
+    {
+      "nombre": "Repisa superior",
+      "ancho": 86,
+      "alto": 29
+    },
+    {
+      "nombre": "Repisa inferior",
+      "ancho": 86,
+      "alto": 29
+    },
+    {
+      "nombre": "Barra trasera",
+      "ancho": 86.4,
+      "alto": 10
+    }
+  ],
+
+  "puertas": [
+    {
+      "nombre": "Puerta izquierda",
+      "ancho": 44.8,
+      "alto": 105,
+      "cantidad": 1
+    },
+    {
+      "nombre": "Puerta derecha",
+      "ancho": 44.8,
+      "alto": 105,
+      "cantidad": 1
+    }
+  ],
+
+  "herrajes": {
+    "precio_bisagra": 500,
+    "cantidad_bisagras": 4,
+    "tiradores": 2,
+    "precio_tirador": 1200
+  },
+
+  "extras": {
+    "canto_metros": 12,
+    "precio_metro_canto": 300
+  },
+
+  "mano_obra": 20000
+}

@@ -1,0 +1,84 @@
+{
+  "nombre": "Escritorio 2 cajones",
+  "material_principal": "melamina",
+  "espesor_mm": 18,
+
+  "estructura": [
+    {
+      "nombre": "Lateral izquierdo",
+      "ancho": 50,
+      "alto": 76.4
+    },
+    {
+      "nombre": "Lateral derecho",
+      "ancho": 50,
+      "alto": 76.4
+    },
+    {
+      "nombre": "Tapa superior",
+      "ancho": 120,
+      "alto": 50
+    },
+    {
+      "nombre": "Frente superior",
+      "ancho": 116.4,
+      "alto": 12
+    },
+    {
+      "nombre": "Travesaño trasero",
+      "ancho": 116.4,
+      "alto": 10
+    },
+    {
+      "nombre": "Divisor central cajones",
+      "ancho": 50,
+      "alto": 12
+    }
+  ],
+
+  "cajones": [
+    {
+      "nombre": "Cajón izquierdo",
+      "ancho": 56,
+      "alto": 12,
+      "profundidad": 45,
+      "cantidad": 1
+    },
+    {
+      "nombre": "Cajón derecho",
+      "ancho": 56,
+      "alto": 12,
+      "profundidad": 45,
+      "cantidad": 1
+    }
+  ],
+
+  "frentes_cajones": [
+    {
+      "nombre": "Frente cajón izquierdo",
+      "ancho": 58,
+      "alto": 15,
+      "cantidad": 1
+    },
+    {
+      "nombre": "Frente cajón derecho",
+      "ancho": 58,
+      "alto": 15,
+      "cantidad": 1
+    }
+  ],
+
+  "herrajes": {
+    "correderas": 2,
+    "precio_corredera": 3500,
+    "tiradores": 2,
+    "precio_tirador": 1200
+  },
+
+  "extras": {
+    "canto_metros": 8,
+    "precio_metro_canto": 300
+  },
+
+  "mano_obra": 18000
+}

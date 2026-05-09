@@ -184,11 +184,29 @@ def cargar_desde_json(path):
     # si viene precio de bisagra → calcular automático
     precio_bisagra = herrajes_data.get("precio_bisagra", 0)
 
+    total_herrajes = 0
+
+    # Bisagras automáticas
     if precio_bisagra > 0:
-        mueble.herrajes = total_bisagras * precio_bisagra
-    else:
-        # fallback a valor fijo (compatibilidad)
-        mueble.herrajes = data.get("herrajes", 0)
+        total_herrajes += total_bisagras * precio_bisagra
+
+    # Tiradores
+    total_herrajes += (
+        herrajes_data.get("tiradores", 0)
+        * herrajes_data.get("precio_tirador", 0)
+    )
+
+    # Correderas
+    total_herrajes += (
+        herrajes_data.get("correderas", 0)
+        * herrajes_data.get("precio_corredera", 0)
+    )
+
+    # Compatibilidad con formato viejo
+    if isinstance(data.get("herrajes"), (int, float)):
+        total_herrajes += data.get("herrajes", 0)
+
+    mueble.herrajes = total_herrajes
 
     # -------- MANO DE OBRA --------
     mueble.mano_obra = data.get("mano_obra", 0)
@@ -257,19 +275,16 @@ def guardar_txt(mueble, filename="presupuesto.txt"):
 
 # ------------------ EJECUCIÓN ------------------
 
-if __name__ == "__main__":
-    # Ruta del archivo JSON
-    ruta = "mueble.json"
 
-    # Cargar datos
+
+if __name__ == "__main__":
+    ruta = input("Ingrese el archivo JSON: ")
+
     mueble = cargar_desde_json(ruta)
 
-    # Mostrar presupuesto
     mostrar_presupuesto(mueble)
 
-    # Optimización de corte
     placas = optimizar_corte(mueble.piezas)
     mostrar_optimizacion(placas)
 
-    # Guardar resultado en archivo
     guardar_txt(mueble)
